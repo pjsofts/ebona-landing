@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,12 +18,12 @@ export default function Home() {
           Ebona AI
         </div>
         <div className="grow"></div>
-        <div className="flex">
-          <div className="ml-5 mr-5 text-xl">Home</div>
+        <div className="flex mr-10">
+          <div className="mr-5 text-xl">Home</div>
           <div className="mr-5 text-xl">About Us</div>
           <div className="mr-5 text-xl">Services</div>
           <div className="mr-5 text-xl">Our Features</div>
-          <div className="mr-5 text-xl">Contact Us</div>
+          <div className="text-xl">Contact Us</div>
         </div>
 
         <button
@@ -32,10 +33,15 @@ export default function Home() {
           Call Us
         </button>
       </div>
-      <div className="flex">
-        <div className="text-[95px] font-medium">
-          <div>EBONA</div>
-          <div>Education</div>
+
+      <div className="mr-[85px] mt-[120px] flex">
+        <div className=" font-medium grow justify-center flex">
+          <div>
+            <div className="text-[95px]">EBONA</div>
+            <div className="text-[95px]">Education</div>
+            <div className="text-[33px]">Your Ai Powered</div>
+            <div className="text-[33px]">Education Mentor</div>
+          </div>
         </div>
         <Image
           src="/images/chip.png"
