@@ -37,8 +37,11 @@ export default function Home() {
       <div className="mr-[85px] mt-[120px] flex">
         <div className=" font-medium grow justify-center flex">
           <div>
-            <div className="text-[95px]">EBONA</div>
-            <div className="text-[95px]">Education</div>
+            <div className="text-[95px] leading-[95px]">
+              EBONA <br />
+              Education
+            </div>
+
             <div className="text-[33px]">Your Ai Powered</div>
             <div className="text-[33px]">Education Mentor</div>
           </div>
