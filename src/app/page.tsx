@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ReactNode, useRef } from "react";
 
 export default function Home() {
-  const menu = useRef<HTMLElement>(null);
+  const menu = useRef<HTMLDivElement>(null);
 
   return (
     <div>
