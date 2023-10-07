@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Button = ({ text }) => {
+const Button = ({ text }:{text:string}) => {
   return (
     <button
       className="text-lg sm:text-2xl mr-5 p-2  bg-[#FF8F00]  text-white rounded-[10px] xl:w-[220px] xl:h-[60px]"
