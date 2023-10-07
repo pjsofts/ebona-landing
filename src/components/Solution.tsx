@@ -45,7 +45,7 @@ const Solution = () => {
         </div>
         <div className="mt-8 sm:mt-16">
           <button
-            className="text-lg sm:text-2xl mr-5 p-2  bg-white  text-white text-[#FF8F00] rounded-[10px] xl:w-[220px] xl:h-[60px]"
+            className="text-lg sm:text-2xl mr-5 p-2  bg-white  text-[#FF8F00] rounded-[10px] xl:w-[220px] xl:h-[60px]"
             type="button"
           >
             <div className="flex">
