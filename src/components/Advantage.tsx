@@ -22,7 +22,7 @@ const Advantage = () => {
             <br />
             learning experience that caters to each
             <br />
-            student's individual profile and goals
+            student&apos;s individual profile and goals
           </div>
         </div>
         <div className="bg-white rounded-[15px] p-8 mt-8 sm:mt-0">
