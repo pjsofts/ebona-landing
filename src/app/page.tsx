@@ -1,5 +1,11 @@
 "use client";
+import Advantage from "@/components/Advantage";
 import Button from "@/components/Button";
+import Competition from "@/components/Competition";
+import Funding from "@/components/Funding";
+import Future from "@/components/Future";
+import Market from "@/components/Market";
+import Model from "@/components/Model";
 import Problem from "@/components/Problem";
 import Solution from "@/components/Solution";
 import Video from "@/components/Video";
@@ -92,6 +98,12 @@ export default function Home() {
       <Video />
       <Problem />
       <Solution />
+      <Competition />
+      <Advantage />
+      <Market />
+      <Model />
+      <Future />
+      <Funding />
     </div>
   );
 }
