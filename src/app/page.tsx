@@ -2,13 +2,19 @@
 import Advantage from "@/components/Advantage";
 import Button from "@/components/Button";
 import Competition from "@/components/Competition";
+import Contact from "@/components/Contact";
+import Details from "@/components/Details";
 import Funding from "@/components/Funding";
 import Future from "@/components/Future";
 import Market from "@/components/Market";
 import Model from "@/components/Model";
 import Problem from "@/components/Problem";
+import Product from "@/components/Product";
 import Solution from "@/components/Solution";
+import Team from "@/components/Team";
+import Thanks from "@/components/Thanks";
 import Video from "@/components/Video";
+
 import Image from "next/image";
 import { ReactNode, useRef } from "react";
 
@@ -104,6 +110,11 @@ export default function Home() {
       <Model />
       <Future />
       <Funding />
+      <Product />
+      <Team />
+      <Contact />
+      <Details />
+      <Thanks />
     </div>
   );
 }
