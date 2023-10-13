@@ -44,23 +44,24 @@ const Solution = () => {
           </div>
         </div>
         <div className="mt-8 sm:mt-16">
-          <a
-            href="#meetus"
-            className="text-lg sm:text-2xl mr-5 p-2  bg-white  text-[#FF8F00] rounded-[10px] xl:w-[220px] xl:h-[60px]"
-            type="button"
-          >
-            <div className="flex justify-center items-center">
-              <div className="mx-4 flex-1 justify-center">Meet Us</div>
-              <div className="bg-[#FF8F00] w-10 h-10 flex justify-center items-center rounded-lg">
-                <Image
-                  alt="go"
-                  src="/icons/right-white.svg"
-                  width={7}
-                  height={14}
-                  priority={false}
-                />
+          <a href="#meetus">
+            <button
+              className="text-lg sm:text-2xl mr-5 p-2  bg-white  text-[#FF8F00] rounded-[10px] xl:w-[220px] xl:h-[60px]"
+              type="button"
+            >
+              <div className="flex justify-center items-center">
+                <div className="mx-4 flex-1 justify-center">Meet Us</div>
+                <div className="bg-[#FF8F00] w-10 h-10 flex justify-center items-center rounded-lg">
+                  <Image
+                    alt="go"
+                    src="/icons/right-white.svg"
+                    width={7}
+                    height={14}
+                    priority={false}
+                  />
+                </div>
               </div>
-            </div>
+            </button>
           </a>
         </div>
       </div>
