@@ -5,12 +5,12 @@ const Contact = () => {
     <div id="meetus" className="p-8 sm:p-20">
       <div className="sm:flex  justify-center">
         <div className="sm:mr-20">
-          <div className="text-amber-500 text-2xl sm:text-[90px] font-semibold">
+          <div className="text-amber-500 text-4xl sm:text-[90px] font-semibold">
             Meet Us
           </div>
-          <div className="text-teal-500 text-2xl sm:text-[49px] font-normal leading-7 mt-14">
+          <div className="text-teal-500 text-3xl sm:text-[49px] font-normal sm:leading-7 mt-4 sm:mt-14">
             We are at GITEX 2023
-            <div className="mt-8">(Expand NorthStar) </div>
+            <div className="mt-2 sm:mt-8">(Expand NorthStar) </div>
           </div>
           {/* <div className="mt-10 text-amber-500 text-[25px] font-normal font-['Outfit'] capitalize leading-[35px]">
             EBONA is a platform that connects

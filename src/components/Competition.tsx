@@ -25,7 +25,7 @@ const Competition = () => {
               alt="go"
               src="/images/edraak.png"
               width={246}
-              height={113}
+              height={100}
               priority={false}
             />
           </div>
@@ -34,12 +34,12 @@ const Competition = () => {
           </div>
         </div>
         <div className="flex flex-col items-center mt-8 sm:mt-0">
-          <div className="h-[262px] w-[262px] flex items-center">
+          <div className="sm:h-[262px] sm:w-[262px] sm:flex  items-center justify-center">
             <Image
               alt="go"
               src="/images/khan.png"
-              width={249}
-              height={249}
+              width={150}
+              height={150}
               priority={false}
             />
           </div>
