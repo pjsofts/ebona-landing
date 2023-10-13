@@ -2,29 +2,28 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="p-8 sm:p-20">
+    <div id="meetus" className="p-8 sm:p-20">
       <div className="sm:flex  justify-center">
         <div className="sm:mr-20">
           <div className="text-amber-500 text-2xl sm:text-[90px] font-semibold">
-            Contact Us
+            Meet Us
           </div>
-          <div className="text-teal-500 text-2xl sm:text-[49px] font-normal mt-10">
-            Ebonaacademy.com
+          <div className="text-teal-500 text-2xl sm:text-[49px] font-normal leading-7 mt-14">
+            We are at GITEX 2023
+            <div className="mt-8">(Expand NorthStar) </div>
           </div>
-          <div className="mt-10 text-amber-500 text-[25px] font-normal font-['Outfit'] capitalize leading-[35px]">
+          {/* <div className="mt-10 text-amber-500 text-[25px] font-normal font-['Outfit'] capitalize leading-[35px]">
             EBONA is a platform that connects
             <br />
             students with a personal AI mentor.
-          </div>
+          </div> */}
           <div className="mt-8 sm:mt-24">
             <button
               className="text-lg sm:text-2xl mr-5 p-2  bg-[#FF8F00]  text-white rounded-[10px] xl:h-[60px]"
               type="button"
             >
               <div className="flex items-center">
-                <div className="mx-4 flex-1 justify-center">
-                  Get Our Pitch Deck
-                </div>
+                <div className="mx-4 flex-1 justify-center">Set a Meeting</div>
                 <div className="bg-white w-10 h-10 flex justify-center items-center rounded-lg">
                   <Image
                     alt="go"

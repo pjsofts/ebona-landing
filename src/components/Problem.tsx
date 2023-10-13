@@ -37,7 +37,7 @@ const Problem = () => {
             learners.
           </div>
         </div>
-        <div className="w-[350px] h-[370px] bg-amber-500 rounded-[15px] mt-8 sm:mt-[-14px] p-8">
+        <div className="w-[350px] h-[370px] bg-amber-500 rounded-[15px] mr-8 mt-8 sm:mt-[-14px] p-8">
           <Image
             src="/images/problem-book.svg"
             width={118}
@@ -48,6 +48,19 @@ const Problem = () => {
           <div className="text-white text-xl font-normal capitalize leading-[30px] mt-8">
             Existing Edtech platforms have failed to fulfil their mission of
             creating a proper educational pathway.
+          </div>
+        </div>
+        <div className="w-[350px] h-[370px] bg-amber-500 rounded-[15px] mt-8 sm:mt-[-48px] p-8">
+          <Image
+            src="/images/problem-lamp.svg"
+            width={118}
+            height={105}
+            priority={false}
+            alt="problem-book"
+          />
+          <div className="text-white text-xl font-normal capitalize leading-[30px] mt-8">
+            Education system must change to support all students. Current setup
+            leads to low performance and disinterest.
           </div>
         </div>
       </div>

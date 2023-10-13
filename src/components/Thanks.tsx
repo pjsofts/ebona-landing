@@ -15,8 +15,12 @@ const Thanks = () => {
           forward to hearing from you soon.
         </div>
         <div className="flex mt-8 sm:mt-14">
-          <Button text="Contact Us" />
-          <Button text="About Us" />
+          <Button
+            to={"https://www.linkedin.com/company/ebonaai/"}
+            target="_blank"
+            text="Contact Us"
+          />
+          <Button to={"#meetus"} target="" text="Meet Us" />
         </div>
       </div>
     </div>

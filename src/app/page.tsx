@@ -22,31 +22,48 @@ export default function Home() {
   const menu = useRef<HTMLDivElement>(null);
 
   return (
-    <div>
-      <div className="bg-[#262626] h-[55px]"></div>
-      <div className="sm:mt-14 flex items-center">
+    <div id="home">
+      <div className="bg-[#262626] h-[55px]">
+        <div ref={menu} className="hidden">
+          <div className="flex text-white justify-around items-center h-[55px]">
+            <a href="#home">Home</a>
+            <div>About</div>
+            <a href="#team">Team</a>
+            <a target="_blank" href="https://www.linkedin.com/company/ebonaai/">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center sticky top-0 bg-white shadow-md z-50 p-1">
         <div className="flex">
           <Image
             className="m-4 sm:my-0 sm:mx-4 sm:ml-10 lg:ml-16 xl:ml-20"
             alt="bona"
             src="/images/bona.svg"
-            width={74}
-            height={74}
+            width={34}
+            height={34}
           />
-          <div className="text-neutral-800 text-xl sm:text-2xl lg:text-4xl font-medium flex items-center">
+          <div className="text-neutral-800 text-xl sm:text-2xl font-medium flex items-center">
             Ebona AI
           </div>
         </div>
         <div className="hidden sm:block sm:flex-1"></div>
-        <div
-          className="hidden sm:flex sm:space-x-5 sm:items-center sm:mr-10"
-          ref={menu}
-        >
-          <div className="sm:text-lg lg:text-xl">Home</div>
-          <div className="sm:text-lg lg:text-xl">About Us</div>
-          <div className="sm:text-lg lg:text-xl">Services</div>
-          <div className="sm:text-lg lg:text-xl">Our Features</div>
-          <div className="sm:text-lg lg:text-xl ">Contact Us</div>
+        <div className="hidden sm:flex sm:space-x-5 sm:items-center sm:mr-10">
+          <a href="#home" className="sm:text-lg lg:text-xl">
+            Home
+          </a>
+          <div className="sm:text-lg lg:text-xl">About</div>
+          <a href="#team" className="sm:text-lg lg:text-xl">
+            Team
+          </a>
+          <a
+            className="sm:text-lg lg:text-xl"
+            target="_blank"
+            href="https://www.linkedin.com/company/ebonaai/"
+          >
+            Contact Us
+          </a>
         </div>
 
         <div className="sm:hidden flex-1 justify-center flex items-center">
@@ -55,6 +72,10 @@ export default function Home() {
             onClick={() => {
               if (menu.current) {
                 menu.current.classList.toggle("hidden");
+                if (window.scrollY !== 0) {
+                  window.location.href = "#home";
+                  menu.current.classList.remove("hidden");
+                }
               }
             }}
           >
@@ -63,16 +84,16 @@ export default function Home() {
         </div>
 
         <div className="flex items-center justify-center mr-6 sm:mr-10 lg:mr-16 xl:mr-20">
-          <button
-            type="button"
-            className="w-20 h-10 rounded-lg sm:w-30 lg:w-48 sm:h-15 lg:h-20 sm:rounded-[18px] sm:text-lg lg:text-3xl font-medium bg-[#FF8F00] text-white"
+          <a
+            href="#meetus"
+            className="w-20 h-10 justify-center items-center flex rounded-lg sm:w-32 sm:h-10 sm:rounded-[18px] sm:text-xl  font-medium bg-[#FF8F00] text-white"
           >
-            Call Us
-          </button>
+            Meet Us
+          </a>
         </div>
       </div>
 
-      <div className="sm:flex sm:mt-[120px]">
+      <div id="home" className="sm:flex sm:mt-[120px]">
         <div className="font-medium grow justify-center flex ml-2">
           <div>
             <div className="mt-10 text-6xl sm:text-[95px] sm:leading-[95px]">
@@ -86,8 +107,12 @@ export default function Home() {
               Education Mentor
             </div>
             <div className="mt-10">
-              <Button text="Contact Us" />
-              <Button text="About Us" />
+              <Button
+                target="_blank"
+                text="Contact Us"
+                to={"https://www.linkedin.com/company/ebonaai/"}
+              />
+              <Button text="Meet Us" to="#meetus" target="" />
             </div>
           </div>
         </div>
@@ -109,8 +134,8 @@ export default function Home() {
       <Market />
       <Model />
       <Future />
-      <Funding />
-      <Product />
+      {/* <Funding />
+      <Product /> */}
       <Team />
       <Contact />
       <Details />

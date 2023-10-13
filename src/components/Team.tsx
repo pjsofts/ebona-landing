@@ -4,7 +4,7 @@ import TeamBox from "./TeamBox";
 Image;
 const Team = () => {
   return (
-    <div className="p-8 sm:p-20 bg-[#FF8F00]">
+    <div id="team" className="p-8 sm:p-20 bg-[#FF8F00]">
       <div className="text-center text-black text-[35px] font-semibold leading-[30px]">
         Founding Team
       </div>
