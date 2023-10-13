@@ -59,7 +59,7 @@ const Product = () => {
           </div>
 
           <div className="mt-8">
-            <Button text="About Us" />
+            <Button text="Meet Us" to="#meetus" target="" />
           </div>
         </div>
       </div>
