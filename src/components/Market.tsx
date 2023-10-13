@@ -35,23 +35,30 @@ const Market = () => {
                 1318- Year Old UAE Students
               </div>
               <div className="mt-8 sm:mt-16">
-                <button
-                  className="text-lg sm:text-2xl mr-5 p-2  bg-white  text-[#FF8F00] rounded-[10px] xl:w-[220px] xl:h-[60px]"
-                  type="button"
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/ebonaai/"
                 >
-                  <div className="flex">
-                    <div className="mx-4 flex-1 justify-center">Contact Us</div>
-                    <div className="bg-[#FF8F00] w-10 h-10 flex justify-center items-center rounded-lg">
-                      <Image
-                        alt="go"
-                        src="/icons/right-white.svg"
-                        width={7}
-                        height={14}
-                        priority={false}
-                      />
+                  <button
+                    className="text-lg sm:text-2xl mr-5 p-2  bg-white  text-[#FF8F00] rounded-[10px] xl:w-[220px] xl:h-[60px]"
+                    type="button"
+                  >
+                    <div className="flex">
+                      <div className="mx-4 flex-1 justify-center">
+                        Contact Us
+                      </div>
+                      <div className="bg-[#FF8F00] w-10 h-10 flex justify-center items-center rounded-lg">
+                        <Image
+                          alt="go"
+                          src="/icons/right-white.svg"
+                          width={7}
+                          height={14}
+                          priority={false}
+                        />
+                      </div>
                     </div>
-                  </div>
-                </button>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
