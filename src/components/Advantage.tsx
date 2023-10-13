@@ -8,7 +8,7 @@ const Advantage = () => {
       </div>
       <div className="overflow-x-scroll sm:overflow-x-hidden pb-4 sm:pb-24">
         <div className="flex sm:flex-wrap w-[1000px] sm:w-auto mt-8 sm:mt-14 sm:justify-center">
-          <div className="bg-white mr-8 rounded-[15px] p-8 w-[300px] sm:w-[476px] flex-shrink-0">
+          <div className="bg-white mr-8 rounded-[15px] p-8 w-[300px] sm:w-[400px] flex-shrink-0">
             <div className="w-[70px] h-[70px]">
               <Image
                 alt="advantage - person"
@@ -23,7 +23,7 @@ const Advantage = () => {
               caters to each student&apos;s individual profile and goals
             </div>
           </div>
-          <div className="bg-white mr-8 rounded-[15px] p-8 w-[300px] sm:w-[476px] flex-shrink-0">
+          <div className="bg-white mr-8 rounded-[15px] p-8 w-[300px] sm:w-[400px] flex-shrink-0">
             <div className="w-[70px] h-[70px]">
               <Image
                 alt="advantage - ai"
@@ -38,7 +38,7 @@ const Advantage = () => {
               engaging learning content from various sources
             </div>
           </div>
-          <div className="sm:mt-4 bg-white mr-8 rounded-[15px] p-8 w-[300px] sm:w-[476px] flex-shrink-0">
+          <div className=" bg-white mr-8 rounded-[15px] p-8 w-[300px] sm:w-[400px] flex-shrink-0">
             <div className="w-[70px] h-[70px]">
               <Image
                 alt="advantage - ai"
@@ -53,7 +53,7 @@ const Advantage = () => {
               elements and techniques to engage and motivate users
             </div>
           </div>
-          <div className="sm:mt-4 bg-white mr-8 rounded-[15px] p-8 w-[300px] sm:w-[476px] flex-shrink-0">
+          <div className="sm:mt-4 bg-white mr-8 rounded-[15px] p-8 w-[300px] sm:w-[400px] flex-shrink-0">
             <div className="w-[70px] h-[70px]">
               <Image
                 alt="advantage - ai"
@@ -69,7 +69,7 @@ const Advantage = () => {
               development
             </div>
           </div>
-          <div className=" sm:mt-4 bg-white rounded-[15px] p-8 w-[300px] sm:w-[476px] flex-shrink-0">
+          <div className=" sm:mt-4 bg-white rounded-[15px] p-8 w-[300px] sm:w-[400px] flex-shrink-0">
             <div className="w-[70px] h-[70px]">
               <Image
                 alt="advantage - ai"
