@@ -15,7 +15,7 @@ import Solution from "@/components/Solution";
 import Team from "@/components/Team";
 import Thanks from "@/components/Thanks";
 import Video from "@/components/Video";
-
+import YouTubeEmbed from "@/components/Youtube";
 import Image from "next/image";
 import { ReactNode, useEffect, useRef } from "react";
 
@@ -72,14 +72,13 @@ export default function Home() {
             priority={false}
             alt="chip"
           />
-          <Image
-            className="z-10"
-            src="/images/chip.png"
-            width={405}
-            height={430}
-            priority
-            alt="chip"
-          />
+          <div className="z-10 w-[390px]  sm:w-[580px]">
+            <YouTubeEmbed
+              link="https://www.youtube.com/embed/-KURXzFcjuo?si=LECg7FF6Zal0g0vl"
+              width="100%"
+              height="325"
+            />
+          </div>
         </div>
       </div>
 

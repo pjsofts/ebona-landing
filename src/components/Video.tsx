@@ -12,7 +12,11 @@ const Video = () => {
         exhilarating world of personalized learning and triumph!
       </div>
       <div className="m-4 sm:m-10 flex-1 rounded-[25px]">
-        <YouTubeEmbed />
+        <YouTubeEmbed
+          link="https://www.youtube.com/embed/yCdqfjEeCpM"
+          width="100%"
+          height="360"
+        />
       </div>
     </div>
   );

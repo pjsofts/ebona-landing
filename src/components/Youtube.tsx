@@ -1,13 +1,21 @@
 import React from "react";
 
-const YouTubeEmbed = () => {
+const YouTubeEmbed = ({
+  link,
+  width,
+  height,
+}: {
+  link: string;
+  width: string;
+  height: string;
+}) => {
   return (
     <div>
       <iframe
-        className="rounded-[25px]"
-        width="100%"
-        height="360"
-        src="https://www.youtube.com/embed/yCdqfjEeCpM"
+        className="rounded-xl"
+        width={width}
+        height={height}
+        src={link}
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
