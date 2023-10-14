@@ -4,8 +4,8 @@ const Competition = () => {
   return (
     <div className="p-8 sm:px-20 sm:py-16 text-center text-neutral-800 text-[40px] font-semibold ">
       Competition
-      <div className="sm:flex justify-between mt-4 sm:mt-6">
-        <div className="flex flex-col items-center mt-4 sm:mt-0">
+      <div className="sm:flex sm:flex-wrap justify-between mt-4 sm:mt-6">
+        <div className="flex  flex-col items-center mt-4 sm:mt-0">
           <div className="sm:h-[262px] sm:w-[262px] sm:flex items-center">
             <Image
               alt="go"

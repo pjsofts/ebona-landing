@@ -32,7 +32,7 @@ const Market = () => {
                 500k+
               </div>
               <div className="text-white text-[22px] font-medium capitalize mt-4">
-                1318- Year Old UAE Students
+                13-18 Year Old UAE Students
               </div>
               <div className="mt-8 sm:mt-16">
                 <a

@@ -10,21 +10,21 @@ const Team = () => {
       </div>
       <div className="flex flex-wrap justify-center sm:mt-14 mt-4">
         <TeamBox
-          image="parham.jpg"
+          image="parham.png"
           name="Parham Fakhri"
           title1="Founder"
           title2="& CEO of Ebona Academy"
           title3="Blockchain Solutions Architect"
         />
         <TeamBox
-          image="kimia.jpg"
+          image="kimia.png"
           name="Kimia Nazari"
           title1="Social Media Marketing Expert"
           title2="YouTube SEO Specialist"
           title3="Founder of Dayere Networking Events"
         />
         <TeamBox
-          image="pouria.jpg"
+          image="pouria.png"
           name="Pouria Jahandideh"
           title1="Former Senior Full Stack Developer"
           title2="at Snapp! & MonetizeMore"
@@ -33,21 +33,21 @@ const Team = () => {
       </div>
       <div className="flex flex-wrap justify-center sm:mt-8 mt-0">
         <TeamBox
-          image="maral.jpg"
+          image="maral.png"
           name="Maral Moradi Falah"
           title1="Business Development Specialist"
           title2="Industrial Engineering"
           title3="Management"
         />
         <TeamBox
-          image="saghar.jpg"
+          image="saghar.png"
           name="Saghar Alizad"
           title1="Education Coordinator"
           title2="International Talent"
           title3=""
         />
         <TeamBox
-          image="farzad.jpg"
+          image="farzad.png"
           name="Farzad Mehrdadi"
           title1="Education Tech Product"
           title2=""
