@@ -42,7 +42,7 @@ export default function Home() {
               </div>
               <div className="sm:pl-12 flex sm:block flex-col items-center justify-center mt-8">
                 <div className="border-l-[4px] pl-5 border-solid border-black">
-                  <div className="text-4xl sm:text-[33px]">Your Ai Powered</div>
+                  <div className="text-4xl sm:text-[33px]">Your AI Powered</div>
                   <div className="text-4xl sm:text-[33px] sm:mt-2">
                     Education Mentor
                   </div>

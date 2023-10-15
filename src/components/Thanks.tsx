@@ -8,7 +8,7 @@ const Thanks = () => {
           Thank you
         </div>
         <div className="text-amber-500 text-2xl sm:text-[35px] font-medium mt-8">
-          Thank you for your time and attention.
+          for your time and attention.
         </div>
         <div className="text-amber-500 text-xl sm:text-[25px] font-normal mt-5">
           We hope you are interested in our pitch and we look <br />

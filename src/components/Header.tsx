@@ -68,12 +68,8 @@ const Header = () => {
           <a href="#team" className="sm:text-lg lg:text-xl">
             Team
           </a>
-          <a
-            className="sm:text-lg lg:text-xl"
-            target="_blank"
-            href="https://www.linkedin.com/company/ebonaai/"
-          >
-            Contact Us
+          <a className="sm:text-lg lg:text-xl" href="#meetus">
+            Meet Us
           </a>
         </div>
 
@@ -90,16 +86,22 @@ const Header = () => {
               }
             }}
           >
-            <Image src="icons/menu.svg" width={30} height={30} alt="menu" />
+            <Image src="/icons/menu.svg" width={30} height={30} alt="menu" />
           </button>
         </div>
 
         <div className="flex items-center justify-center mr-6 sm:mr-10 lg:mr-16 xl:mr-20">
           <a
-            href="#meetus"
-            className="w-20 h-10 justify-center items-center flex rounded-lg sm:w-32 sm:h-10 sm:rounded-[10px] sm:text-xl  font-medium bg-[#FF8F00] text-white"
+            target="_blank"
+            href="https://www.linkedin.com/company/ebonaai/"
+            className="w-20 h-10 justify-center items-center flex rounded-lg sm:w-32 sm:h-10 sm:rounded-[10px] sm:text-xl  font-medium"
           >
-            Meet Us
+            <Image
+              src="/icons/linkedin.svg"
+              width={30}
+              height={30}
+              alt="linkedin"
+            />
           </a>
         </div>
       </div>
