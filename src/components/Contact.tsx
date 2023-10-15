@@ -23,7 +23,13 @@ const Contact = () => {
               type="button"
             >
               <div className="flex items-center">
-                <div className="mx-2 flex-1 justify-center">Set a Meeting</div>
+                <a
+                  className="mx-2 flex-1 justify-center"
+                  href="https://gitexplus.com/newfront/exhibitor/12808"
+                  target="_blank"
+                >
+                  Set a Meeting
+                </a>
                 <div className="bg-white w-10 h-10 flex justify-center items-center rounded-lg">
                   <Image
                     alt="go"
@@ -41,8 +47,8 @@ const Contact = () => {
           <Image
             className="rounded-[33px] mt-8 sm:mt-0"
             alt="contact us"
-            src="/images/contact.png"
-            width={545}
+            src="/images/meetus.jpg"
+            width={445}
             height={414}
             priority={false}
           />

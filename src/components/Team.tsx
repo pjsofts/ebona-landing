@@ -35,23 +35,23 @@ const Team = () => {
         <TeamBox
           image="maral.png"
           name="Maral Moradi Falah"
-          title1="Business Development Specialist"
-          title2="Industrial Engineering"
-          title3="Management"
+          title1="Business Development Manager"
+          title2="Project Control Manager"
+          title3="Business Process Expert"
         />
         <TeamBox
           image="saghar.png"
-          name="Saghar Alizad"
+          name="Saghar Alizad Ghadimi"
           title1="Education Coordinator"
-          title2="International Talent"
-          title3=""
+          title2="International Academic Olympian"
+          title3="Trained Highschool and Pre-University Teacher"
         />
         <TeamBox
           image="farzad.png"
           name="Farzad Mehrdadi"
-          title1="Education Tech Product"
-          title2=""
-          title3=""
+          title1="Education Production Expert"
+          title2="AR/VR Producer"
+          title3="Well Known Digital Creator"
         />
       </div>
     </div>
